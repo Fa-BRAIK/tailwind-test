@@ -1,0 +1,14 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "Testing of tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/scss/style.scss -o dist/css/style.css"
+  },
+  "author": "Farouk",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}
